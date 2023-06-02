@@ -26,11 +26,11 @@ function Login(){
 								<div className="one-frm">
 
 									<label>User Name</label>
-									<input type="text" name="Name"  placeholder="username" required="" />
+									<input type="text" name="Name"  placeholder="Enter Your username" required="" />
 								</div>
 								<div className="one-frm">
 									<label>Password</label>
-									<input type="password" name="Password"  placeholder="password" required="" />
+									<input type="password" name="Password"  placeholder="Enter Your password" required="" />
 								</div>
                                 <label className="check-remaind">
                                     <input type="checkbox" />
