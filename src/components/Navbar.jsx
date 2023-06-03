@@ -8,9 +8,9 @@ import logout from '../Images/logout.png'
 function Navbar(){
     return(
         <div>
-            <div className="Container vh-100">
+            <div className="Container ">
                 <div className="">
-                    <h1 className="px-3 py-3 dash">Dashboard</h1>
+                    <h1 className=" h2">Dashboard</h1>
                 </div>
                 <hr className="h-line"/>
                  {/* Navbar Start */}

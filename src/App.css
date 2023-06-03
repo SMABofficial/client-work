@@ -453,12 +453,19 @@ button:hover {
 }
 .Container{
   background-color: #efefef;
-  width: 100%;
-  height: 100%;
+
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  overflow: auto;
+  justify-content: center;
+  text-align: center;
+  
 }
 .dash{
   color: #555a62;
-  font-size: 35px;
+  
 }
 .h-line{
   color: #555a62;
@@ -479,7 +486,7 @@ button:hover {
 }
 .list{
   list-style-type:none;
-  display: inline-block;
+  
 }
 .listlink{
   margin: 10px;
@@ -491,13 +498,12 @@ button:hover {
  width: 50px;
  height: 50px;
 }
+
 .logout{
   margin-left: 25px;
  
 }
-.last-link{
-  background-color: #efefef;
-}
+
 .container-fluid{
   margin: 0px;
   padding: 0px;
