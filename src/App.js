@@ -5,6 +5,7 @@ import Signup from './pages/Signup';
 import NotFound from './pages/NotFound';
 import { Route , Routes } from 'react-router-dom';
 
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route path='/' element={<Login/ >} />
         <Route path='/Signup' element={<Signup />} />
         <Route path='*' element={<NotFound />} />
-        
+      
+        <Route path='/Dashboard' element={<Dashboard />} />
       </Routes>
     
     </div>
