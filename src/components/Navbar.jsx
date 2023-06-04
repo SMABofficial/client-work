@@ -16,16 +16,12 @@ function Navbar(){
                  {/* Navbar Start */}
                 <div className=" navlink" >
                 <ul className="navigation list">
-                                            <li className="mt-3"><img src={websites} alt="" className="imgs"/><NavLink className="listlink" to="#">Websites</NavLink>  </li>
+                                            <li className="mt-3"><img src={websites} alt="" className="imgs"/><NavLink className="listlink" to="/Dasshboard">Websites</NavLink>  </li>
                                             <li className="mt-3"><img src={internet} alt="" className="imgs" /><NavLink className="listlink" to="#">Track Single Link</NavLink></li>
                                             <li className="mt-3"><img src={graph} alt="" className="imgs"/><NavLink className="listlink" to="#">Graphs</NavLink></li>
                                             <li className="mt-3"><img src={setting} alt="" className="imgs"/><NavLink className="listlink" to="#">Settings</NavLink></li>
                                         </ul>
-                   
-                    
-
-                        
-                    
+   
                 </div>
                 {/* Navbar End */}
                 <div className=" last-link">
