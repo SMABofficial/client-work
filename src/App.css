@@ -509,7 +509,7 @@ button:hover {
   padding: 0px;
 }
 table, td, th {  
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   text-align: left;
 }
 
