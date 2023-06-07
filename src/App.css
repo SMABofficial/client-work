@@ -1,4 +1,8 @@
-
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -453,13 +457,12 @@ button:hover {
 }
 .Container{
   background-color: #efefef;
-
   height: 100vh !important;
   display: flex;
   flex-direction: column;
   max-height: 100%;
-  overflow: auto;
-  justify-content: center;
+  /* overflow: auto;
+  justify-content: center; */
   text-align: center;
   
 }
@@ -513,19 +516,31 @@ table, td, th {
   text-align: left;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
+
 
 th, td {
-  padding: 10px;
+  padding: 4px;
 }
 .imggraph{
   width: 25px;
   height: 25px;
 }
+.webname{
+  margin-top: 70px;
+}
 
+table, td, th {
+  border: 1px solid !important;
+}
 
+table {
+  
+  border-collapse: collapse !important;
+}
+.genrate{
+height: 45px;
+  width: 70%;
+ display: inline;
+}
 
 
